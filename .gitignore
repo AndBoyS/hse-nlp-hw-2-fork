@@ -1,0 +1,10 @@
+hw/.idea
+.DS_Store
+hw/data
+!hw/data/top_nonstopwords.pkl
+__pycache__
+.idea
+.vscode
+.ipynb_checkpoints
+venv
+logs
