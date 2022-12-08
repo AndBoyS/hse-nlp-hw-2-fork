@@ -13,6 +13,8 @@ nltk = "^3.7"
 numpy = "^1.23.4"
 pandas = "^1.5.1"
 pybind11 = "^2.10.1"
+gensim = "^4.2.0"
+scikit-learn = "^1.2.0"
 
 
 [build-system]
