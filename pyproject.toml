@@ -15,6 +15,18 @@ pandas = "^1.5.1"
 pybind11 = "^2.10.1"
 gensim = "^4.2.0"
 scikit-learn = "^1.2.0"
+spacy = "^3.4.3"
+bratools = {git = "https://github.com/gaarutyunov/bratools.git"}
+seqeval = "^1.2.2"
+datasets = "^2.7.1"
+en-core-web-sm = {url = "https://huggingface.co/spacy/en_core_web_sm/resolve/main/en_core_web_sm-any-py3-none-any.whl"}
+transformers = "^4.25.1"
+torch = [
+    {url = "https://download.pytorch.org/whl/cpu/torch-1.12.1-cp39-none-macosx_10_9_x86_64.whl", markers = "platform_system == 'Darwin'"},
+    {url = "https://download.pytorch.org/whl/cpu/torch-1.12.1%2Bcpu-cp39-cp39-win_amd64.whl", markers = "platform_system == 'Windows'"}
+]
+lightning-transformers = {git = "https://github.com/gaarutyunov/lightning-transformers.git"}
+tensorboard = "^2.11.0"
 
 
 [build-system]
